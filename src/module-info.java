@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Moti
+ *
+ */
+module javadiscordbot {
+}
