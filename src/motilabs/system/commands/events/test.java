@@ -15,7 +15,6 @@ public class test extends ListenerAdapter {
 	 */
 	 public void onSlashCommandInteraction( SlashCommandInteractionEvent event) {
 		if(event.getName().equals("test")) {
-			System.err.println("hola");
 			EmbedBuilder embed = new EmbedBuilder()
                     .setTitle("¡Command test!")
                     .setDescription("**Command test**");
