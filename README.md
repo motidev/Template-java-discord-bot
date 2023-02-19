@@ -40,4 +40,4 @@ You can report bugs [**here**](https://github.com/motidev/Java-Discord-Bot/issue
  ### 🤟 Thanks
     If you like this extension, you could give a ⭐.
 &nbsp;
-<p align="center"><b>© 2022 Motidev. All rights reserved</b></p>
+<p align="center"><b>© 2023 Motidev. All rights reserved</b></p>
