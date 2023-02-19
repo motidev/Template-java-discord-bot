@@ -4,6 +4,8 @@ import javax.security.auth.login.LoginException;
 
 import motilabs.config.Colors;
 import motilabs.config.Config;
+import motilabs.system.commands.Command;
+import motilabs.system.commands.events.test;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
@@ -21,7 +23,7 @@ import net.dv8tion.jda.api.entities.Activity;
 public class Main {
 	
 	// Main variables
-	private static JDA shardMan;
+	public static JDA shardMan;
 	private static JDABuilder builder;
 	private final static String PRESSENCE = "Developed by Moti#6503";
 
@@ -31,7 +33,7 @@ public class Main {
 	 * @param args
 	 * 
 	 */
-	public static void main(String[] args) throws LoginException {
+	public static void main(String[] args) throws LoginException, InterruptedException{
 		systemBot();
 	}
 	
@@ -40,9 +42,10 @@ public class Main {
 	 * 
 	 * Method with which we will start the bot.
 	 * @throws LoginException
+	 * @throws InterruptedException 
 	 * 
 	 */
-	private static void systemBot() throws LoginException {
+	private static void systemBot() throws LoginException, InterruptedException {
 		
 		// Create config constructor
 		
@@ -50,7 +53,7 @@ public class Main {
 		
 		// --------------------------
 		
-		builder = JDABuilder.createDefault(config.getToken());
+		builder = JDABuilder.createDefault(config.getToken()).addEventListeners(new test());
 		
 		builder.setActivity(Activity.watching(PRESSENCE)).setStatus(OnlineStatus.DO_NOT_DISTURB);
 		
@@ -58,5 +61,14 @@ public class Main {
 		
 		System.out.println(Colors.YELLOW + "[Monitor] The bot has been started succesfully");
 		System.out.println("[Monitor] Connected to Discord" + Colors.GREEN);
+		
+		// Create command Constructor
+		
+		Command command = new Command();
+		
+		// Push
+		
+		command.commandPush();
+	
 	}
 } 
