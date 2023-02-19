@@ -43,6 +43,7 @@ You can report bugs [**here**](https://github.com/motidev/Java-Discord-Bot/issue
 <img  src="https://github.com/motidev/Java-Discord-Bot/blob/main/public/command.png">
 </p>
 &nbsp;
+
  ### 🤟 Thanks
     If you like this extension, you could give a ⭐.
 &nbsp;
