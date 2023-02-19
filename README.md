@@ -1,4 +1,4 @@
-# Java-Discord-Bot
+# Java Discord Bot
 
 ### 📋 Description
 ☕ Bot developed with java for discord
