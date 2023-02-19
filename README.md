@@ -8,9 +8,9 @@ You can report bugs [**here**](https://github.com/motidev/Java-Discord-Bot/issue
 
 ### 📝 Changelog
 **Version 0.0.1 | 19/02/2023**
-    - Add Main class.
-    - Add system file.
-    - Add config class.
+   - Add Main class.
+   - Add system file.
+   - Add config class.
 &nbsp;
 ### 📥 Configuration  
  
