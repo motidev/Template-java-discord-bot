@@ -2,6 +2,7 @@ package motilabs.system;
 
 import javax.security.auth.login.LoginException;
 
+import motilabs.config.Colors;
 import motilabs.config.Config;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -55,6 +56,7 @@ public class Main {
 		
 		shardMan = builder.build();
 		
-		System.out.println("[Monitor] The bot has been started succesfully");
+		System.out.println(Colors.YELLOW + "[Monitor] The bot has been started succesfully");
+		System.out.println("[Monitor] Connected to Discord" + Colors.GREEN);
 	}
 } 
