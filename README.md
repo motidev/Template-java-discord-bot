@@ -1,4 +1,8 @@
-# Java Discord Bot
+
+<p align="center">
+<img  src="https://github.com/motidev/Java-Discord-Bot/blob/main/public/banner.png">
+</p>
+
 
 ### 📋 Description
 ☕ Bot developed with java for discord
