@@ -14,7 +14,7 @@ You can report bugs [**here**](https://github.com/motidev/Java-Discord-Bot/issue
 &nbsp;
 ### 📥 Configuration  
  
-    Create a config class in src/motilabs/config [**example**](https://github.com/motidev/Java-Discord-Bot/blob/main/src/motilabs/config/ConfigExample.java) 
+  Create a config class in src/motilabs/config [**example**](https://github.com/motidev/Java-Discord-Bot/blob/main/src/motilabs/config/ConfigExample.java) 
 
   ```java
 
